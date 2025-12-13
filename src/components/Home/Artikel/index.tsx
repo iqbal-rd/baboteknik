@@ -129,12 +129,12 @@ export default function Artikel() {
                        Jika belum ada, biarkan div placeholder aktif.
                     */}
                     
-                    {/* <Image 
-                       src={article.image} 
+                    <Image 
+                       src='/Blog/blog_img.png'
                        alt={article.title}
                        fill
                        className="object-cover hover:scale-105 transition-transform duration-500"
-                    /> */}
+                    />
 
                     {/* Placeholder (Hapus ini jika <Image> sudah dipakai) */}
                     <div className="w-full h-full flex items-center justify-center text-gray-400">

@@ -105,7 +105,7 @@ export default function Product() {
                 <div className="w-full h-full relative">
                     {/* Ganti src ini dengan gambar produkmu */}
                    <Image 
-                     src={item.image} 
+                     src="/produk/matabor.png"
                      alt={item.name}
                      fill
                      className="object-contain p-4"
