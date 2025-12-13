@@ -6,7 +6,7 @@ export default function ContactHero() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
             <Image
-              src="/kontak/hero_ctc.png" // Pastikan siapkan gambar tools di folder public/Catalog/
+              src="/Kontak/hero_ctc.png" // Pastikan siapkan gambar tools di folder public/Catalog/
               alt="Katalog Hero"
               fill
               className="object-cover"

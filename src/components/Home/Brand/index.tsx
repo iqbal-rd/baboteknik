@@ -5,13 +5,13 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 const brandLogos = [
-  { src: "/brand/tjapmata.png", alt: "Tjap Mata Logo" },
-  { src: "/brand/modern.png", alt: "Modern Power Tools Logo" },
-  { src: "/brand/makita.png", alt: "makita Logo" },
-  { src: "/brand/mollar.png", alt: "mollar Logo" },
-  { src: "/brand/tekiro.png", alt: "tekiro Logo" },
-  { src: "/brand/toho.png", alt: "toho Logo" },
-  { src: "/brand/haston.png", alt: "haston Logo" },
+  { src: "/Brand/tjapmata.png", alt: "Tjap Mata Logo" },
+  { src: "/Brand/modern.png", alt: "Modern Power Tools Logo" },
+  { src: "/Brand/makita.png", alt: "makita Logo" },
+  { src: "/Brand/mollar.png", alt: "mollar Logo" },
+  { src: "/Brand/tekiro.png", alt: "tekiro Logo" },
+  { src: "/Brand/toho.png", alt: "toho Logo" },
+  { src: "/Brand/haston.png", alt: "haston Logo" },
 ];
 
 const logo = [...brandLogos, ...brandLogos];

@@ -39,7 +39,7 @@ export default function Visi() {
                 transition={{duration: 0.8, ease: "easeOut"}}
                 >
                     <img
-                    src="/home/rectangle.png"
+                    src="/Home/rectangle.png"
                     alt="Foto Toko"
                     className="rounded-xl shadow-lg"
                     />
