@@ -24,28 +24,28 @@ export default function Product() {
       name: "MATA BOR BESI NACHI HSS STRAIGHT DRILLS 13,5 13,5mm",
       rating: 5,
       reviews: 20,
-      image: "/Home/product-1.png", // Pastikan ganti dengan path gambar kamu
+      image: "/product/matabor.png", // Pastikan ganti dengan path gambar kamu
     },
     {
       id: 2,
       name: "MATA BOR BESI NACHI HSS STRAIGHT DRILLS 13,5 13,5mm",
       rating: 5,
       reviews: 20,
-      image: "/Home/product-1.png",
+      image: "/product/matabor.png",
     },
     {
       id: 3,
       name: "MATA BOR BESI NACHI HSS STRAIGHT DRILLS 13,5 13,5mm",
       rating: 5,
       reviews: 20,
-      image: "/Home/product-1.png",
+      image: "/product/matabor.png",
     },
     {
       id: 4,
       name: "MATA BOR BESI NACHI HSS STRAIGHT DRILLS 13,5 13,5mm",
       rating: 5,
       reviews: 20,
-      image: "/Home/product-1.png",
+      image: "/product/matabor.png",
     },
   ];
 
