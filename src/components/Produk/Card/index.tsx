@@ -22,7 +22,7 @@ export default function ProductCard({ image, title, rating, reviewCount }: Produ
       <div className="relative w-full aspect-square mb-4 bg-gray-50 rounded-lg overflow-hidden flex items-center justify-center p-4">
         <div className="relative w-full h-full">
              <Image 
-                src={image} 
+                src='/produk/matabor.png' 
                 alt={title}
                 fill
                 className="object-contain"

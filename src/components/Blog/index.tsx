@@ -23,7 +23,7 @@ export default function BlogPage({ blogCategory }: BlogPageProps) {
     excerpt: "Perkakas yang terawat bikin kerja lebih lancar dan tahan lama. Yuk, pelajari cara sederhana merawatnya di sini.",
     date: "1 Oktober 2025",
     category: "Edukasi",
-    image: "/Blog/blog-1.jpg", 
+    image: "/Blog/blog_img.png", 
     slug: "tips-merawat"
   });
 
