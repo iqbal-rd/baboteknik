@@ -86,7 +86,7 @@ export default function Keunggulan() {
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-sm md:text-base text-[#5D77D5] font-medium tracking-wide">Keunggulan</p>
-          <h2 className="text-[#1E1E1E] text-3xl md:text-4xl font-bold mt-2">Keunggulan Baboo Teknik</h2>
+          <h2 className="text-[#1E1E1E] text-3xl md:text-4xl font-bold mt-2">Keunggulan Babo Teknik</h2>
         </div>
 
         {/* SLIDER CONTAINER */}

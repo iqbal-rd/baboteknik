@@ -8,19 +8,23 @@ const IconSearch = () => (
 );
 
 export default function Sidebar() {
-  const categories = ["Tutorial", "Tutorial", "Tutorial", "Tutorial"]; // Dummy categories sesuai gambar
+  const categories = ["Tutorial", "Tutorial", "Tutorial", "Tutorial"];
 
   return (
-    <aside className="w-full lg:w-1/4 flex flex-col gap-8">
+    // UBAH DISINI:
+    // Ganti 'lg:w-1/4' menjadi 'md:w-[260px] lg:w-1/4'
+    // Ini artinya: Di Tablet (md) lebarnya fix 260px, di Desktop (lg) lebarnya 25%
+    <aside className="w-full md:w-[260px] lg:w-1/4 flex flex-col gap-6 md:gap-8 flex-shrink-0">
       
       {/* Search Widget */}
-      <div>
-        <h3 className="text-[#1E1E1E] font-bold mb-3 text-lg">Search</h3>
+      {/* Tambahkan bg-white, p-6, rounded-2xl agar terlihat seperti kartu terpisah */}
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+        <h3 className="text-[#1E1E1E] font-bold mb-4 text-lg">Search</h3>
         <div className="relative">
           <input 
             type="text" 
             placeholder="Search" 
-            className="w-full bg-white border border-gray-200 rounded-lg py-3 pl-4 pr-10 text-sm focus:outline-none focus:border-[#5442CB] transition-colors"
+            className="w-full bg-gray-50 border border-gray-200 rounded-lg py-2.5 pl-4 pr-10 text-sm focus:outline-none focus:border-[#5442CB] focus:bg-white transition-all"
           />
           <div className="absolute right-3 top-1/2 -translate-y-1/2">
             <IconSearch />
@@ -29,13 +33,13 @@ export default function Sidebar() {
       </div>
 
       {/* Kategori Widget */}
-      <div>
-        <h3 className="text-[#1E1E1E] font-bold mb-3 text-lg">Kategori</h3>
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+        <h3 className="text-[#1E1E1E] font-bold mb-4 text-lg">Kategori</h3>
         <div className="flex flex-col gap-3">
           {categories.map((cat, idx) => (
             <button 
               key={idx}
-              className="w-full text-left bg-white border border-gray-200 rounded-lg py-3 px-4 text-sm text-gray-600 hover:border-[#5442CB] hover:text-[#5442CB] transition-all"
+              className="w-full text-left bg-white border border-gray-200 rounded-lg py-3 px-4 text-sm text-gray-600 hover:border-[#5442CB] hover:text-[#5442CB] transition-all hover:shadow-sm"
             >
               {cat}
             </button>

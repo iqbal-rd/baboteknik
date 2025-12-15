@@ -11,13 +11,12 @@ export default function ProdukPage() {
 
       {/* 2. MAIN LAYOUT (Sidebar + Grid) */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16">
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
-          
-          {/* KIRI: SIDEBAR */}
+        
+        <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-start">
+        
           <Sidebar />
 
-          {/* KANAN: KATALOG */}
-          <div className="w-full lg:w-3/4">
+          <div className="w-full md:flex-1">
              <ProductCatalog />
           </div>
 
